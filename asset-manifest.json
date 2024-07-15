@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/test-hebergement/static/css/main.8f8f56bf.css",
-    "main.js": "/test-hebergement/static/js/main.56d0fd4a.js",
+    "main.js": "/test-hebergement/static/js/main.2f68d29e.js",
     "static/media/photo-banner-paysage-about.png": "/test-hebergement/static/media/photo-banner-paysage-about.640955dab8c7bff25514.png",
     "static/media/photo-banner-paysage-home.png": "/test-hebergement/static/media/photo-banner-paysage-home.19221376a0aa2549c135.png",
     "static/media/Montserrat-Medium.ttf": "/test-hebergement/static/media/Montserrat-Medium.b8c6753baa964ccac1ba.ttf",
@@ -9,10 +9,10 @@
     "static/media/logo_kasa_white.webp": "/test-hebergement/static/media/logo_kasa_white.0807a9c0340b480361e5.webp",
     "index.html": "/test-hebergement/index.html",
     "main.8f8f56bf.css.map": "/test-hebergement/static/css/main.8f8f56bf.css.map",
-    "main.56d0fd4a.js.map": "/test-hebergement/static/js/main.56d0fd4a.js.map"
+    "main.2f68d29e.js.map": "/test-hebergement/static/js/main.2f68d29e.js.map"
   },
   "entrypoints": [
     "static/css/main.8f8f56bf.css",
-    "static/js/main.56d0fd4a.js"
+    "static/js/main.2f68d29e.js"
   ]
 }
