@@ -1,0 +1,66 @@
+// font
+@font-face {
+  font-family: "montserrat";
+  src: url(../assets/fonts/Montserrat-Medium.ttf);
+}
+$font-1: montserrat, sans-serif;
+
+// variables
+$color-1: rgb(255, 96, 96);
+$color-2: white;
+$color-3: black;
+$color-4: rgba(246, 246, 246);
+
+// test mixins
+@mixin centerFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+// @include centerFlex
+
+@mixin marginGlobal {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+@mixin link {
+  text-decoration: none;
+}
+
+@mixin maxWidth {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@mixin margin20 {
+  margin: 20px 20px;
+}
+
+@mixin margin40 {
+  margin: 40px 40px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $color-2;
+  min-height: 100vh;
+  font-family: $font-1;
+}
+
+main {
+  @include maxWidth;
+}
+
+li {
+  list-style: none;
+
+  a {
+    text-decoration: none;
+  }
+}
