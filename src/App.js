@@ -7,11 +7,11 @@ import Error from "./pages/Error";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={"production" ? "/test-hebergement" : "/"}>
       <Routes>
         {/* Route vers la page d'accueil */}
         <Route path="/" element={<Home />} />
-        {/* Route vers la page a propos */}
+        {/* Route vers la page à propos */}
         <Route path="/a-propos" element={<About />} />
         {/* Route vers une fiche de location précise */}
         <Route path="/location/:id" element={<Location />} />
